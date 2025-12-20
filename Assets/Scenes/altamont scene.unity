@@ -219,7 +219,7 @@ MeshRenderer:
   m_GameObject: {fileID: 382368973}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -230,7 +230,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de182589abd0c444c97585f77ac4e722, type: 2}
+  - {fileID: 2100000, guid: 4a981c0ccf374c24896f9c8ef98c92e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -394,7 +394,7 @@ Transform:
   m_GameObject: {fileID: 443397219}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 430.09387, y: 7.7435803, z: 644.4341}
+  m_LocalPosition: {x: 781.61, y: 7.74, z: 338.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -402,6 +402,7 @@ Transform:
   - {fileID: 1841889562}
   - {fileID: 1650981637}
   - {fileID: 1181509380}
+  - {fileID: 532298942}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &532298939
@@ -415,6 +416,7 @@ GameObject:
   - component: {fileID: 532298942}
   - component: {fileID: 532298941}
   - component: {fileID: 532298943}
+  - component: {fileID: 532298944}
   m_Layer: 0
   m_Name: Camera_B
   m_TagString: Untagged
@@ -432,7 +434,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -481,12 +483,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532298939}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.73271495, z: -0, w: -0.68053573}
-  m_LocalPosition: {x: 500.51385, y: 38.21504, z: 539.49}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 443397220}
   m_LocalEulerAnglesHint: {x: 0, y: 265.771, z: 0}
 --- !u!114 &532298943
 MonoBehaviour:
@@ -503,6 +505,15 @@ MonoBehaviour:
   playerCamera: {fileID: 1566350909}
   portal: {fileID: 443397220}
   otherPortal: {fileID: 2044489025}
+--- !u!45 &532298944
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532298939}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 667882e247fbcb14ead9f5db73339d01, type: 2}
 --- !u!1 &697454232
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +741,7 @@ Transform:
   m_GameObject: {fileID: 996283970}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6322642, y: -0.31661022, z: 0.31661022, w: 0.6322642}
-  m_LocalPosition: {x: 1.32, y: 0.00039672852, z: -1}
+  m_LocalPosition: {x: 1.2, y: 0, z: -0.9}
   m_LocalScale: {x: 10.300003, y: 0, z: 16.58}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -853,7 +864,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1160987310}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -864,7 +875,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de182589abd0c444c97585f77ac4e722, type: 2}
+  - {fileID: 2100000, guid: 4a981c0ccf374c24896f9c8ef98c92e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -904,7 +915,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 6.485626, y: 9.824959, z: 17.589752}
-  m_LocalScale: {x: 3.2092874, y: 9.601719, z: 1.8636886}
+  m_LocalScale: {x: 3.2092874, y: 9.598572, z: 1.6993299}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2044489025}
@@ -973,7 +984,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1181509379}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -984,7 +995,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de182589abd0c444c97585f77ac4e722, type: 2}
+  - {fileID: 2100000, guid: 4a981c0ccf374c24896f9c8ef98c92e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1123,15 +1134,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483280215}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 314.5, y: 25.63, z: 525.8}
+  m_LocalRotation: {x: -0, y: 0.99157655, z: -0, w: 0.12952268}
+  m_LocalPosition: {x: 314.3, y: 24.75, z: 548.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 707889302}
   - {fileID: 1566350909}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 165.116, z: 0}
 --- !u!1 &1515694236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,7 +1400,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1650981636}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -1400,7 +1411,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de182589abd0c444c97585f77ac4e722, type: 2}
+  - {fileID: 2100000, guid: 4a981c0ccf374c24896f9c8ef98c92e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1494,7 +1505,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1841889561}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -1505,7 +1516,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de182589abd0c444c97585f77ac4e722, type: 2}
+  - {fileID: 2100000, guid: 4a981c0ccf374c24896f9c8ef98c92e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1584,7 +1595,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1865384886}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -1595,7 +1606,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: de182589abd0c444c97585f77ac4e722, type: 2}
+  - {fileID: 2100000, guid: 4a981c0ccf374c24896f9c8ef98c92e8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1667,11 +1678,11 @@ Transform:
   m_GameObject: {fileID: 1924839439}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: 321.52386, y: 33.74358, z: 517.6011}
+  m_LocalPosition: {x: 6.4494934, y: 0.52853775, z: 16.680817}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2044489025}
   m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
 --- !u!114 &1924839441
 MonoBehaviour:
@@ -1849,7 +1860,7 @@ Transform:
   m_GameObject: {fileID: 2014579465}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6322642, y: -0.31661022, z: 0.31661022, w: 0.6322642}
-  m_LocalPosition: {x: 1.3199944, y: 0.00039720535, z: -0.99999726}
+  m_LocalPosition: {x: 1.16, y: 0, z: -0.86}
   m_LocalScale: {x: 1.0235113, y: 0, z: 1.6421329}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1930,14 +1941,15 @@ Transform:
   m_GameObject: {fileID: 2044489024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 315.07437, y: 33.215042, z: 500.92026}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 315.59, y: 30.58, z: 519.27}
+  m_LocalScale: {x: 0.91961, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1515694237}
   - {fileID: 1865384890}
   - {fileID: 382368977}
   - {fileID: 1160987314}
+  - {fileID: 1924839440}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -1950,5 +1962,3 @@ SceneRoots:
   - {fileID: 697454235}
   - {fileID: 2044489025}
   - {fileID: 443397220}
-  - {fileID: 532298942}
-  - {fileID: 1924839440}
