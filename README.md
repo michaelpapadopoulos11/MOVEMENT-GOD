@@ -1,0 +1,1 @@
+**This game is a work in progress and a personal passion project of mine, developed in Unity with C#. My current vision for this project leans toward a more arthouse and experimental vibe, exploring unconventional ideas and creative expression.**
