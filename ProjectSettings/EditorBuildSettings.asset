@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 39d6707641b894102b066b26b45672b2
+  - enabled: 1
+    path: Assets/Scenes/disillusion_fuck.unity
+    guid: 433bc2b44ba39b44481952cf8661aa14
   m_configObjects: {}
